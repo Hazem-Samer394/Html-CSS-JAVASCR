@@ -22,7 +22,7 @@ body {
   height: 30px;
   background: #fff;
   border-radius: 50%;
-  margin: 0 10px;
+  margin: 0 7px;
   animation: Load 0.8s ease infinite;
 }
 .larper .loding.one {
@@ -42,6 +42,8 @@ body {
   }
   50% {
     width: 20px;
+    transform: translateX(10px);
+
     height: 20px;
   }
 }
